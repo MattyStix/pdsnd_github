@@ -95,6 +95,7 @@ def time_stats(df):
     print('\nCalculating The Most Frequent Times of Travel...\n')
     start_time = time.time()
     # TO DO: display the most common month, imported 'calendar to display name of month
+    # use .mode()[0] to to get most popular
     common_month = df['month'].mode()[0]
     print('The most popular month is:', calendar.month_name[common_month])
     # TO DO: display the most common day of week
@@ -117,6 +118,7 @@ def station_stats(df):
     print('\nCalculating The Most Popular Stations and Trip...\n')
     start_time = time.time()
     # TO DO: display most commonly used start station
+    # use .mode()[0] to get most popular
     common_start_station = df['Start Station'].mode()[0]
     print('The most popular starting point is:', common_start_station)
     # TO DO: display most commonly used end station
@@ -138,7 +140,8 @@ def trip_duration_stats(df):
 
     print('\nCalculating Trip Duration...\n')
     start_time = time.time()
-    # TO DO: display total travel time. Divide by 60 to adjust seconds to minutes and rounded to 2 decimals
+    # TO DO: display total travel time. Divide by 60 to adjust seconds to minutes and
+    # rounded to 2 decimal places
     total_travel_time = df['Trip Duration'].sum()
     total_travel_time_mins = (total_travel_time / 60).round(2)
     print('The total travel time is:', total_travel_time_mins, 'minutes.')
@@ -170,6 +173,7 @@ def user_stats(df):
     except KeyError:
         print("Sorry, gender data is unavaiable.")
     # TO DO: Display earliest, most recent, and most common year of birth
+    # try statements for missing data
     try:
         # try statement for missing data - birth year earliest
         earliest_birth = df['Birth Year'].min()
