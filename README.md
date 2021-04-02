@@ -21,8 +21,16 @@ by the customer base, such as age and gender.
 ### Describe what your project is about and what it does
 
 ### Files used
-Include the files used
+Included files:
+Bikeshare.py
+README.md
+chicago.csv
+washington.csv
+new_york_city.csv
+### Include the files used
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Thanks to Udacity https://github.com/udacity
+### It's important to give proper credit. Add links to any repo that inspired you or blogposts
+### you consulted.
 
