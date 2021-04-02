@@ -6,14 +6,19 @@ to the remote repository in your Github account.
 ### Date created
 The is project was created on the 20th of March 2021 and uploaded to GitHub on the 29th of
 March 2021 20:36 GMT+11
-# Include the date you created this project and README file.
+### Include the date you created this project and README file.
 
 ### Project Title
 Bikeshare statistics for Chicago, Washington and New York City
-Replace the Project Title
+### Replace the Project Title
 
 ### Description
-Describe what your project is about and what it does
+The Bikeshare program provides the user with statistical information regarding the usage of
+hired bicycle transport in three major cities in the United States. Statistics can be filtered
+by city, by month and by day, providing the most popular starting times, start and end location,
+popular route and average time spent using the equipment, as well as other information provided
+by the customer base, such as age and gender.
+### Describe what your project is about and what it does
 
 ### Files used
 Include the files used
